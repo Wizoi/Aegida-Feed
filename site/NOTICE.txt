@@ -24,3 +24,14 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+------------------------------------------------------------------------------
+
+The list of apps that can secretly spy on a phone in this feed is derived from the Stalkerware Indicators of
+Compromise published by Echap (Association Echap), used under the Creative Commons Attribution 4.0 International
+licence (CC BY 4.0): https://creativecommons.org/licenses/by/4.0/
+https://github.com/AssoEchap/stalkerware-indicators
+
+Changes made: only the package names and the signing-certificate fingerprints were taken, and they are stored in
+this feed as 8-byte SHA-256 prefixes, so the file does not contain them in readable form. No endorsement by Echap
+or the Coalition Against Stalkerware is suggested.

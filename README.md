@@ -9,7 +9,7 @@ The `gh-pages` branch is replaced once a day with:
 
 | File | What it is |
 |---|---|
-| `feed.bin` | The list, about 9 MB. Each entry is an 8-byte SHA-256 prefix of a lower-case host name or a `host/path`, so the file contains no readable web addresses. |
+| `feed.bin` | The list, about 9 MB. Each entry is an 8-byte SHA-256 prefix of a lower-case host name, a `host/path`, an app package name or a certificate fingerprint, so the file contains no readable web addresses or app names. |
 | `feed.sig` | An ECDSA P-256 / SHA-256 signature of `feed.bin`. The app only uses a feed whose signature matches the key built into it. |
 | `NOTICE.txt` | The licence notice for the data the list is derived from. |
 
@@ -21,6 +21,10 @@ Derived from [Phishing.Database](https://github.com/Phishing-Database/Phishing.D
 see `site/NOTICE.txt`): its active phishing domain list and active phishing link list. Domains that many
 unrelated people publish on (for example a site-builder or a link shortener) are left out of the host list so
 one bad page does not flag the whole service.
+
+Also derived from the [Stalkerware Indicators of Compromise](https://github.com/AssoEchap/stalkerware-indicators)
+published by Echap (CC BY 4.0; see `site/NOTICE.txt`): the package names and signing-certificate fingerprints of
+known spying apps, stored as hashes.
 
 ## What this repository does not contain
 
