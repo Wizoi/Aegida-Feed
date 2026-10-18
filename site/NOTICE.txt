@@ -35,3 +35,11 @@ https://github.com/AssoEchap/stalkerware-indicators
 Changes made: only the package names and the signing-certificate fingerprints were taken, and they are stored in
 this feed as 8-byte SHA-256 prefixes, so the file does not contain them in readable form. No endorsement by Echap
 or the Coalition Against Stalkerware is suggested.
+
+------------------------------------------------------------------------------
+
+The list of the most-visited websites in this feed (used only so that a well-known site is never called a look-alike) is
+derived from the Majestic Million by Majestic, used under the Creative Commons Attribution 3.0 Unported License.
+https://majestic.com/reports/majestic-million
+https://creativecommons.org/licenses/by/3.0/
+Changes: only the top 10,000 domains are used, stored as hashes.
