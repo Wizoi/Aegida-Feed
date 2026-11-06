@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Aegida Feed</title>
+<style>
+  :root { --bg: #fff4cc; --fg: #1c1b1a; --link: #0f6b73; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #151413; --fg: #fff4cc; --link: #7fcbd2; } }
+  body { background: var(--bg); color: var(--fg); font: 18px/1.5 system-ui, sans-serif; max-width: 40rem; margin: 2rem auto; padding: 0 16px; }
+  a { color: var(--link); }
+</style>
+</head>
+<body>
+<h1>Aegida Feed</h1>
+<p>A daily-updated, signed list of known scam websites for the Aegida phone app.</p>
+<ul>
+  <li><a href="feed.bin">feed.bin</a>, the list (about 9 MB, hashed entries only)</li>
+  <li><a href="feed.sig">feed.sig</a>, its signature</li>
+  <li><a href="NOTICE.txt">NOTICE.txt</a>, licence notice for the source data</li>
+</ul>
+<p>Derived from <a href="https://github.com/Phishing-Database/Phishing.Database">Phishing.Database</a> (MIT) and the <a href="https://github.com/AssoEchap/stalkerware-indicators">Stalkerware Indicators of Compromise</a> by Echap (CC BY 4.0).
+Source and notes: <a href="https://github.com/Wizoi/Aegida-Feed">github.com/Wizoi/Aegida-Feed</a>.</p>
+</body>
+</html>
